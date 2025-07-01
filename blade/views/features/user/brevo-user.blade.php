@@ -27,7 +27,7 @@
 <div class="box">
     <div class="success" style=" color: {{ $code === 400 ? 'red' : 'green' }}">{{$messaggio}}</div>
     @if ($messaggio === 'Numero WhatsApp non valido')
-    <div style="font-size: small; margin-top: 15px">Torna alla home e inserisci un numero WhatsApp valido</div>
+    <div style="font-size: small; margin-top: 15px">Torna indietro e inserisci un numero WhatsApp valido</div>
     @endif
     <a href="javascript:history.back()" class="back-btn">Torna alla Home</a>
   </div>

@@ -12,7 +12,7 @@
   </style>
 </head>
 <body>
-    <div style="
+  <div style="
   font-family: Impact, Haettenschweiler, 'Arial Black', sans-serif;
   font-size: 100px;
   font-weight: bold;
@@ -21,13 +21,13 @@
   text-transform: lowercase;
   line-height: 1;
   margin-bottom: 10px;
-">
+  ">
   web
 </div>
-  <div class="box">
-    <div class="success" style="color: <?php echo e($code === 400 ? 'red' : 'green'); ?>"><?php echo e($messaggio); ?></div>
+<div class="box">
+    <div class="success" style=" color: <?php echo e($code === 400 ? 'red' : 'green'); ?>"><?php echo e($messaggio); ?></div>
     <?php if($messaggio === 'Numero WhatsApp non valido'): ?>
-    <div style="font-size: small; margin-top: 15px">Torna alla home e inserisci un numero WhatsApp valido</div>
+    <div style="font-size: small; margin-top: 15px">Torna indietro e inserisci un numero WhatsApp valido</div>
     <?php endif; ?>
     <a href="javascript:history.back()" class="back-btn">Torna alla Home</a>
   </div>
