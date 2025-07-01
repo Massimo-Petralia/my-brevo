@@ -1,0 +1,2 @@
+[2025-06-27 10:41:16] GET | Email: rossi@hotmail.it | Codice: 404 | Risposta: {"code":"document_not_found","message":"Contact does not exist"}
+[2025-06-27 10:41:16] POST | Email: rossi@hotmail.it | Codice: 201 | Risposta: {"id":3137}
