@@ -494,3 +494,69 @@
 [2025-07-01T22:00:03+02:00] === INIZIO SCRIPT ===
 [2025-07-01T22:00:04+02:00] Ordine troppo vecchio, fermo.
 [2025-07-01T22:02:50+02:00] === FINE SCRIPT ===
+[2025-07-02T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T00:00:05+02:00] === INIZIO SCRIPT ===
+[2025-07-02T00:00:08+02:00] DEBUG Gruppi utente 35370: {"8":{"link_id":"23177","usergroup_id":"8","status":"A"}}
+[2025-07-02T00:00:08+02:00] Dati mancanti per ordine 31989: email=info@fvgshop.it, cell=
+[2025-07-02T00:00:08+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T00:03:36+02:00] === FINE SCRIPT ===
+[2025-07-02T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T02:02:49+02:00] === FINE SCRIPT ===
+[2025-07-02T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T04:00:02+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T04:02:48+02:00] === FINE SCRIPT ===
+[2025-07-02T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T06:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T06:02:50+02:00] === FINE SCRIPT ===
+[2025-07-02T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T08:00:07+02:00] DEBUG Gruppi utente 6614: {"8":{"link_id":"2329","usergroup_id":"8","status":"A"}}
+[2025-07-02T08:00:07+02:00] Numero non valido: 057328284 per info@carradori.it
+[2025-07-02T08:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T08:03:00+02:00] === FINE SCRIPT ===
+[2025-07-02T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T10:00:05+02:00] DEBUG Gruppi utente 6713: []
+[2025-07-02T10:00:05+02:00] Utente 6713 NON appartiene ai rivenditori. Ordine 31997 saltato.
+[2025-07-02T10:00:05+02:00] DEBUG Gruppi utente 11544: {"31":{"link_id":"10448","usergroup_id":"31","status":"A"}}
+[2025-07-02T10:00:05+02:00] Utente 11544 NON appartiene ai rivenditori. Ordine 31996 saltato.
+[2025-07-02T10:00:06+02:00] DEBUG Gruppi utente 4357: {"8":{"link_id":"532","usergroup_id":"8","status":"A"}}
+[2025-07-02T10:00:07+02:00] Contatto aggiornato: dmelettronica@alice.it -> +393884941743
+[2025-07-02T10:00:09+02:00] DEBUG Gruppi utente 4952: {"8":{"link_id":"698","usergroup_id":"8","status":"A"}}
+[2025-07-02T10:00:09+02:00] Numero non valido: 095938900 per assistenza@websrl.com
+[2025-07-02T10:00:11+02:00] DEBUG Gruppi utente 5537: {"31":{"link_id":"11092","usergroup_id":"31","status":"A"}}
+[2025-07-02T10:00:11+02:00] Utente 5537 NON appartiene ai rivenditori. Ordine 31993 saltato.
+[2025-07-02T10:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T10:02:55+02:00] === FINE SCRIPT ===
+[2025-07-02T12:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T12:00:05+02:00] DEBUG Gruppi utente 4818: {"38":{"link_id":"27674","usergroup_id":"38","status":"A"}}
+[2025-07-02T12:00:05+02:00] Utente 4818 NON appartiene ai rivenditori. Ordine 32004 saltato.
+[2025-07-02T12:00:06+02:00] DEBUG Gruppi utente 36248: {"8":{"link_id":"25534","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:06+02:00] Numero non valido: 3928492349 per ferramentacatallo@gmail.com
+[2025-07-02T12:00:08+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-07-02T12:00:08+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 32002 saltato.
+[2025-07-02T12:00:09+02:00] DEBUG Gruppi utente 33322: {"38":{"link_id":"27505","usergroup_id":"38","status":"A"}}
+[2025-07-02T12:00:09+02:00] Utente 33322 NON appartiene ai rivenditori. Ordine 32000 saltato.
+[2025-07-02T12:00:10+02:00] DEBUG Gruppi utente 7015: {"8":{"link_id":"2699","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:10+02:00] Contatto aggiornato: info@betagroup.it -> +393485482760
+[2025-07-02T12:00:11+02:00] DEBUG Gruppi utente 37077: {"8":{"link_id":"26667","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:11+02:00] Dati mancanti per ordine 31998: email=turifazio56@gmail.com, cell=
+[2025-07-02T12:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T12:02:57+02:00] === FINE SCRIPT ===
+[2025-07-02T14:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T14:00:04+02:00] DEBUG Gruppi utente 7307: {"31":{"link_id":"10640","usergroup_id":"31","status":"A"}}
+[2025-07-02T14:00:04+02:00] Utente 7307 NON appartiene ai rivenditori. Ordine 32008 saltato.
+[2025-07-02T14:00:05+02:00] DEBUG Gruppi utente 5698: {"31":{"link_id":"10707","usergroup_id":"31","status":"A"}}
+[2025-07-02T14:00:05+02:00] Utente 5698 NON appartiene ai rivenditori. Ordine 32007 saltato.
+[2025-07-02T14:00:05+02:00] DEBUG Gruppi utente 35370: {"8":{"link_id":"23177","usergroup_id":"8","status":"A"}}
+[2025-07-02T14:00:05+02:00] Dati mancanti per ordine 32006: email=info@fvgshop.it, cell=
+[2025-07-02T14:00:06+02:00] DEBUG Gruppi utente 5839: {"8":{"link_id":"1578","usergroup_id":"8","status":"A"}}
+[2025-07-02T14:00:06+02:00] Numero non valido: 3926047724 per postaorazio@hotmail.it
+[2025-07-02T14:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T14:02:25+02:00] === FINE SCRIPT ===
