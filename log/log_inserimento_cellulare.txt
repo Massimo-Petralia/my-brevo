@@ -1,0 +1,708 @@
+[2025-06-23T17:29:24+02:00] === INIZIO SCRIPT ===
+[2025-06-23T17:29:24+02:00] DEBUG Gruppi utente 5123: {"38":{"link_id":"27652","usergroup_id":"38","status":"A"}}
+[2025-06-23T17:29:24+02:00] Utente 5123 NON appartiene ai rivenditori. Ordine 31876 saltato.
+[2025-06-23T17:29:25+02:00] DEBUG Gruppi utente 5851: {"8":{"link_id":"28106","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:25+02:00] Contatto aggiornato: rciucci@tin.it -> +393755564331
+[2025-06-23T17:29:26+02:00] DEBUG Gruppi utente 7444: {"8":{"link_id":"3087","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:26+02:00] Contatto aggiornato: aniellorusso63@virgilio.it -> +393389019783
+[2025-06-23T17:29:26+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-06-23T17:29:26+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 31873 saltato.
+[2025-06-23T17:29:26+02:00] DEBUG Gruppi utente 11876: {"31":{"link_id":"10942","usergroup_id":"31","status":"A"}}
+[2025-06-23T17:29:26+02:00] Utente 11876 NON appartiene ai rivenditori. Ordine 31872 saltato.
+[2025-06-23T17:29:27+02:00] DEBUG Gruppi utente 37185: {"8":{"link_id":"26816","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:27+02:00] Contatto aggiornato: ufficiotecnicogsimpianti@gmail.com -> +393335203696
+[2025-06-23T17:29:27+02:00] DEBUG Gruppi utente 37568: {"8":{"link_id":"27379","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:27+02:00] Numero non valido: 3925433502 per flashtime@hotmail.it
+[2025-06-23T17:29:28+02:00] DEBUG Gruppi utente 33322: {"38":{"link_id":"27505","usergroup_id":"38","status":"A"}}
+[2025-06-23T17:29:28+02:00] Utente 33322 NON appartiene ai rivenditori. Ordine 31868 saltato.
+[2025-06-23T17:29:28+02:00] DEBUG Gruppi utente 9974: {"8":{"link_id":"27723","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:28+02:00] Contatto aggiornato: ferramentaveronesi@inwind.it -> +393200120502
+[2025-06-23T17:29:29+02:00] DEBUG Gruppi utente 4952: {"8":{"link_id":"698","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:29+02:00] Numero non valido: 095938900 per assistenza@websrl.com
+[2025-06-23T17:29:29+02:00] DEBUG Gruppi utente 4952: {"8":{"link_id":"698","usergroup_id":"8","status":"A"}}
+[2025-06-23T17:29:29+02:00] Numero non valido: 095938900 per assistenza@websrl.com
+[2025-06-23T17:29:29+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T08:57:07+02:00] === INIZIO SCRIPT ===
+[2025-06-24T08:57:08+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:08:03+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:08:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:10:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:10:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:20:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:20:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:30:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:30:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:40:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:40:02+02:00] DEBUG Gruppi utente 5784: {"8":{"link_id":"1523","usergroup_id":"8","status":"A"}}
+[2025-06-24T12:40:02+02:00] Contatto aggiornato: dmimpiantisrl@gmail.com -> +393382020023
+[2025-06-24T12:40:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T12:50:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T12:50:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:00:05+02:00] DEBUG Gruppi utente 4818: {"38":{"link_id":"27674","usergroup_id":"38","status":"A"}}
+[2025-06-24T13:00:05+02:00] Utente 4818 NON appartiene ai rivenditori. Ordine 31890 saltato.
+[2025-06-24T13:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:10:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:10:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:20:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:20:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:30:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:30:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:40:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:40:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T13:50:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T13:50:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:10:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:10:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:20:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:20:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:30:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:30:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:40:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:40:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T14:50:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T14:50:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:10:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:10:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:20:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:20:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:30:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:30:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:40:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:40:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T15:50:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T15:50:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T16:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T16:10:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T16:10:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T16:20:02+02:00] === INIZIO SCRIPT ===
+[2025-06-24T16:20:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T16:30:01+02:00] === INIZIO SCRIPT ===
+[2025-06-24T16:30:02+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T18:00:04+02:00] DEBUG Gruppi utente 10973: {"8":{"link_id":"6380","usergroup_id":"8","status":"A"}}
+[2025-06-24T18:00:05+02:00] Contatto aggiornato: cirocip@gmail.com -> +393286219748
+[2025-06-24T18:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T18:02:37+02:00] === FINE SCRIPT ===
+[2025-06-24T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-24T20:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T20:02:31+02:00] === FINE SCRIPT ===
+[2025-06-24T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-24T22:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-24T22:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-24T22:02:28+02:00] === FINE SCRIPT ===
+[2025-06-25T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T00:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T00:02:37+02:00] === FINE SCRIPT ===
+[2025-06-25T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T02:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T02:02:30+02:00] === FINE SCRIPT ===
+[2025-06-25T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T04:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T04:02:30+02:00] === FINE SCRIPT ===
+[2025-06-25T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T06:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T06:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T06:02:31+02:00] === FINE SCRIPT ===
+[2025-06-25T08:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-25T08:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-25T08:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T08:02:32+02:00] === FINE SCRIPT ===
+[2025-06-25T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T10:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T10:00:04+02:00] DEBUG Gruppi utente 4952: {"8":{"link_id":"698","usergroup_id":"8","status":"A"}}
+[2025-06-25T10:00:04+02:00] Numero non valido: 095938900 per assistenza@websrl.com
+[2025-06-25T10:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T10:03:08+02:00] === FINE SCRIPT ===
+[2025-06-25T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T12:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T12:03:17+02:00] === FINE SCRIPT ===
+[2025-06-25T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T14:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T14:03:06+02:00] === FINE SCRIPT ===
+[2025-06-25T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T16:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T16:03:08+02:00] === FINE SCRIPT ===
+[2025-06-25T18:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-25T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T18:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T18:03:13+02:00] === FINE SCRIPT ===
+[2025-06-25T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T20:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T20:03:09+02:00] === FINE SCRIPT ===
+[2025-06-25T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-25T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-25T22:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-25T22:03:08+02:00] === FINE SCRIPT ===
+[2025-06-26T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T00:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T00:03:09+02:00] === FINE SCRIPT ===
+[2025-06-26T02:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T02:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T02:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T02:03:11+02:00] === FINE SCRIPT ===
+[2025-06-26T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T04:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T04:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T04:03:08+02:00] === FINE SCRIPT ===
+[2025-06-26T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T06:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T06:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T06:03:10+02:00] === FINE SCRIPT ===
+[2025-06-26T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T08:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T08:03:10+02:00] === FINE SCRIPT ===
+[2025-06-26T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-26T10:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T10:03:05+02:00] === FINE SCRIPT ===
+[2025-06-26T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T12:00:05+02:00] DEBUG Gruppi utente 5897: {"31":{"link_id":"11699","usergroup_id":"31","status":"A"}}
+[2025-06-26T12:00:05+02:00] Utente 5897 NON appartiene ai rivenditori. Ordine 31918 saltato.
+[2025-06-26T12:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T12:03:09+02:00] === FINE SCRIPT ===
+[2025-06-26T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T14:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T14:03:09+02:00] === FINE SCRIPT ===
+[2025-06-26T16:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-26T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T16:00:04+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-06-26T16:00:04+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 31921 saltato.
+[2025-06-26T16:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T16:03:10+02:00] === FINE SCRIPT ===
+[2025-06-26T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-26T18:00:06+02:00] DEBUG Gruppi utente 35076: {"8":{"link_id":"26232","usergroup_id":"8","status":"A"}}
+[2025-06-26T18:00:06+02:00] Dati mancanti per ordine 31927: email=rivenditore@websrl.com, cell=
+[2025-06-26T18:00:06+02:00] DEBUG Gruppi utente 35076: {"8":{"link_id":"26232","usergroup_id":"8","status":"A"}}
+[2025-06-26T18:00:06+02:00] Dati mancanti per ordine 31926: email=rivenditore@websrl.com, cell=
+[2025-06-26T18:00:07+02:00] DEBUG Gruppi utente 8292: {"8":{"link_id":"3852","usergroup_id":"8","status":"A"}}
+[2025-06-26T18:00:08+02:00] Contatto aggiornato: gipa.x@libero.it -> +393405398632
+[2025-06-26T18:00:09+02:00] DEBUG Gruppi utente 10317: {"31":{"link_id":"11391","usergroup_id":"31","status":"A"}}
+[2025-06-26T18:00:09+02:00] Utente 10317 NON appartiene ai rivenditori. Ordine 31924 saltato.
+[2025-06-26T18:00:10+02:00] DEBUG Gruppi utente 10317: {"31":{"link_id":"11391","usergroup_id":"31","status":"A"}}
+[2025-06-26T18:00:10+02:00] Utente 10317 NON appartiene ai rivenditori. Ordine 31923 saltato.
+[2025-06-26T18:00:11+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-06-26T18:00:11+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 31922 saltato.
+[2025-06-26T18:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T18:03:12+02:00] === FINE SCRIPT ===
+[2025-06-26T20:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-26T20:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-26T20:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T20:03:05+02:00] === FINE SCRIPT ===
+[2025-06-26T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-26T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-26T22:03:05+02:00] === FINE SCRIPT ===
+[2025-06-27T00:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-27T00:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T00:00:06+02:00] === INIZIO SCRIPT ===
+[2025-06-27T00:03:04+02:00] === FINE SCRIPT ===
+[2025-06-27T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T02:00:04+02:00] DEBUG Gruppi utente 7412: {"8":{"link_id":"3060","usergroup_id":"8","status":"A"}}
+[2025-06-27T02:00:04+02:00] Numero non valido: 3921885991 per glbartolucci@gmail.com
+[2025-06-27T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T02:03:06+02:00] === FINE SCRIPT ===
+[2025-06-27T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-27T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-27T04:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T04:03:08+02:00] === FINE SCRIPT ===
+[2025-06-27T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T06:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T06:03:04+02:00] === FINE SCRIPT ===
+[2025-06-27T08:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T08:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T08:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T08:03:04+02:00] === FINE SCRIPT ===
+[2025-06-27T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T10:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T10:03:08+02:00] === FINE SCRIPT ===
+[2025-06-27T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T12:00:04+02:00] DEBUG Gruppi utente 11638: {"31":{"link_id":"11127","usergroup_id":"31","status":"A"}}
+[2025-06-27T12:00:04+02:00] Utente 11638 NON appartiene ai rivenditori. Ordine 31932 saltato.
+[2025-06-27T12:00:05+02:00] DEBUG Gruppi utente 7255: {"8":{"link_id":"2919","usergroup_id":"8","status":"A"}}
+[2025-06-27T12:00:05+02:00] Contatto aggiornato: dbaudio@virgilio.it -> +393351256731
+[2025-06-27T12:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T12:03:09+02:00] === FINE SCRIPT ===
+[2025-06-27T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-27T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-27T14:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T14:03:09+02:00] === FINE SCRIPT ===
+[2025-06-27T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T16:00:05+02:00] DEBUG Gruppi utente 10817: {"8":{"link_id":"6218","usergroup_id":"8","status":"A"}}
+[2025-06-27T16:00:07+02:00] Contatto aggiornato: negozio.unia.carlo@alice.it -> +390142809152
+[2025-06-27T16:00:08+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T16:03:09+02:00] === FINE SCRIPT ===
+[2025-06-27T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-27T18:00:06+02:00] === INIZIO SCRIPT ===
+[2025-06-27T18:00:07+02:00] DEBUG Gruppi utente 6721: {"31":{"link_id":"28010","usergroup_id":"31","status":"A"}}
+[2025-06-27T18:00:07+02:00] Utente 6721 NON appartiene ai rivenditori. Ordine 31934 saltato.
+[2025-06-27T18:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T18:03:33+02:00] === FINE SCRIPT ===
+[2025-06-27T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-27T20:00:06+02:00] DEBUG Gruppi utente 4449: {"8":{"link_id":"440","usergroup_id":"8","status":"A"}}
+[2025-06-27T20:00:06+02:00] Contatto aggiornato: satellit2000@tiscali.it -> +393389543280
+[2025-06-27T20:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T20:03:09+02:00] === FINE SCRIPT ===
+[2025-06-27T22:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-27T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-27T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-27T22:03:11+02:00] === FINE SCRIPT ===
+[2025-06-28T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T00:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T00:03:10+02:00] === FINE SCRIPT ===
+[2025-06-28T02:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-28T02:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T02:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T02:03:15+02:00] === FINE SCRIPT ===
+[2025-06-28T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T04:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T04:03:10+02:00] === FINE SCRIPT ===
+[2025-06-28T06:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-28T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T06:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T06:03:11+02:00] === FINE SCRIPT ===
+[2025-06-28T08:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T08:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T08:03:09+02:00] === FINE SCRIPT ===
+[2025-06-28T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-28T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T10:00:04+02:00] DEBUG Gruppi utente 4410: {"8":{"link_id":"27767","usergroup_id":"8","status":"A"}}
+[2025-06-28T10:00:05+02:00] Errore Brevo per info@shopdolce.com: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-06-28T10:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T10:03:11+02:00] === FINE SCRIPT ===
+[2025-06-28T12:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-28T12:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-28T12:00:09+02:00] DEBUG Gruppi utente 4818: {"38":{"link_id":"27674","usergroup_id":"38","status":"A"}}
+[2025-06-28T12:00:09+02:00] Utente 4818 NON appartiene ai rivenditori. Ordine 31937 saltato.
+[2025-06-28T12:00:09+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T12:03:16+02:00] === FINE SCRIPT ===
+[2025-06-28T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T14:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T14:03:10+02:00] === FINE SCRIPT ===
+[2025-06-28T16:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-28T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-28T16:00:04+02:00] DEBUG Gruppi utente 9974: {"8":{"link_id":"27723","usergroup_id":"8","status":"A"}}
+[2025-06-28T16:00:04+02:00] Contatto aggiornato: ferramentaveronesi@inwind.it -> +393200120502
+[2025-06-28T16:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T16:03:12+02:00] === FINE SCRIPT ===
+[2025-06-28T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T18:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T18:03:11+02:00] === FINE SCRIPT ===
+[2025-06-28T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T20:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T20:03:13+02:00] === FINE SCRIPT ===
+[2025-06-28T22:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-28T22:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-28T22:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-28T22:03:15+02:00] === FINE SCRIPT ===
+[2025-06-29T00:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-29T00:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T00:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-29T00:03:15+02:00] === FINE SCRIPT ===
+[2025-06-29T02:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-29T02:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T02:03:17+02:00] === FINE SCRIPT ===
+[2025-06-29T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-29T04:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T04:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T04:03:09+02:00] === FINE SCRIPT ===
+[2025-06-29T06:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-29T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-29T06:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T06:03:08+02:00] === FINE SCRIPT ===
+[2025-06-29T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T08:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T08:03:15+02:00] === FINE SCRIPT ===
+[2025-06-29T10:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-29T10:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-29T10:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T10:03:09+02:00] === FINE SCRIPT ===
+[2025-06-29T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-29T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T12:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T12:03:22+02:00] === FINE SCRIPT ===
+[2025-06-29T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T14:00:06+02:00] DEBUG Gruppi utente 35105: {"8":{"link_id":"21275","usergroup_id":"8","status":"A"}}
+[2025-06-29T14:00:06+02:00] Contatto aggiornato: tecnostore86@gmail.com -> +393392327296
+[2025-06-29T14:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T14:03:09+02:00] === FINE SCRIPT ===
+[2025-06-29T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T16:00:05+02:00] DEBUG Gruppi utente 37496: {"38":{"link_id":"28171","usergroup_id":"38","status":"A"}}
+[2025-06-29T16:00:05+02:00] Utente 37496 NON appartiene ai rivenditori. Ordine 31941 saltato.
+[2025-06-29T16:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T16:03:08+02:00] === FINE SCRIPT ===
+[2025-06-29T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-29T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-29T18:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T18:03:10+02:00] === FINE SCRIPT ===
+[2025-06-29T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T20:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T20:03:09+02:00] === FINE SCRIPT ===
+[2025-06-29T22:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T22:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-29T22:00:05+02:00] DEBUG Gruppi utente 4353: {"8":{"link_id":"27520","usergroup_id":"8","status":"A"}}
+[2025-06-29T22:00:05+02:00] Contatto aggiornato: mpelettronica@inwind.it -> +393283536981
+[2025-06-29T22:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-06-29T22:03:11+02:00] === FINE SCRIPT ===
+[2025-06-30T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T00:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T00:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-30T00:03:23+02:00] === FINE SCRIPT ===
+[2025-06-30T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T02:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T02:03:10+02:00] === FINE SCRIPT ===
+[2025-06-30T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T04:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T04:03:11+02:00] === FINE SCRIPT ===
+[2025-06-30T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T06:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T06:03:09+02:00] === FINE SCRIPT ===
+[2025-06-30T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T08:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-30T08:00:08+02:00] DEBUG Gruppi utente 7340: {"31":{"link_id":"10691","usergroup_id":"31","status":"A"}}
+[2025-06-30T08:00:08+02:00] Utente 7340 NON appartiene ai rivenditori. Ordine 31943 saltato.
+[2025-06-30T08:00:08+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T08:03:15+02:00] === FINE SCRIPT ===
+[2025-06-30T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-30T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-30T10:00:03+02:00] DEBUG Gruppi utente 5200: {"31":{"link_id":"10177","usergroup_id":"31","status":"A"}}
+[2025-06-30T10:00:03+02:00] Utente 5200 NON appartiene ai rivenditori. Ordine 31944 saltato.
+[2025-06-30T10:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T10:03:17+02:00] === FINE SCRIPT ===
+[2025-06-30T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T12:00:04+02:00] DEBUG Gruppi utente 36289: {"31":{"link_id":"27698","usergroup_id":"31","status":"A"}}
+[2025-06-30T12:00:04+02:00] Utente 36289 NON appartiene ai rivenditori. Ordine 31949 saltato.
+[2025-06-30T12:00:05+02:00] DEBUG Gruppi utente 4410: {"8":{"link_id":"27767","usergroup_id":"8","status":"A"}}
+[2025-06-30T12:00:05+02:00] Errore Brevo per info@shopdolce.com: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-06-30T12:00:06+02:00] DEBUG Gruppi utente 4809: {"8":{"link_id":"80","usergroup_id":"8","status":"A"}}
+[2025-06-30T12:00:06+02:00] Contatto aggiornato: vitoingrosso@libero.it -> +393403478024
+[2025-06-30T12:00:08+02:00] DEBUG Gruppi utente 12037: {"31":{"link_id":"10520","usergroup_id":"31","status":"A"}}
+[2025-06-30T12:00:08+02:00] Utente 12037 NON appartiene ai rivenditori. Ordine 31946 saltato.
+[2025-06-30T12:00:09+02:00] DEBUG Gruppi utente 33859: {"8":{"link_id":"15823","usergroup_id":"8","status":"A"}}
+[2025-06-30T12:00:09+02:00] Numero non valido: 096771593 per tecserv@katamail.com
+[2025-06-30T12:00:09+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T12:03:05+02:00] === FINE SCRIPT ===
+[2025-06-30T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T14:00:05+02:00] === INIZIO SCRIPT ===
+[2025-06-30T14:00:05+02:00] DEBUG Gruppi utente 34919: {"8":{"link_id":"19969","usergroup_id":"8","status":"A"}}
+[2025-06-30T14:00:05+02:00] Errore Brevo per ELETTROLUCEE@GMAIL.COM: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-06-30T14:00:06+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-06-30T14:00:06+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 31952 saltato.
+[2025-06-30T14:00:07+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-06-30T14:00:07+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 31951 saltato.
+[2025-06-30T14:00:07+02:00] DEBUG Gruppi utente 4578: {"31":{"link_id":"11743","usergroup_id":"31","status":"A"}}
+[2025-06-30T14:00:07+02:00] Utente 4578 NON appartiene ai rivenditori. Ordine 31950 saltato.
+[2025-06-30T14:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T14:03:08+02:00] === FINE SCRIPT ===
+[2025-06-30T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T16:00:05+02:00] DEBUG Gruppi utente 6419: {"8":{"link_id":"2152","usergroup_id":"8","status":"A"}}
+[2025-06-30T16:00:06+02:00] Contatto aggiornato: tecnosystem3@libero.it -> +393284267412
+[2025-06-30T16:00:07+02:00] DEBUG Gruppi utente 6872: {"8":{"link_id":"2570","usergroup_id":"8","status":"A"}}
+[2025-06-30T16:00:07+02:00] Contatto aggiornato: davidelista61@gmail.com -> +393392237051
+[2025-06-30T16:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T16:03:07+02:00] === FINE SCRIPT ===
+[2025-06-30T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T18:00:06+02:00] DEBUG Gruppi utente 5761: {"8":{"link_id":"27810","usergroup_id":"8","status":"A"}}
+[2025-06-30T18:00:07+02:00] Errore Brevo per info@grgelettronica.com: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-06-30T18:00:08+02:00] DEBUG Gruppi utente 7240: {"31":{"link_id":"11488","usergroup_id":"31","status":"A"}}
+[2025-06-30T18:00:08+02:00] Utente 7240 NON appartiene ai rivenditori. Ordine 31958 saltato.
+[2025-06-30T18:00:09+02:00] DEBUG Gruppi utente 6691: {"31":{"link_id":"10967","usergroup_id":"31","status":"A"}}
+[2025-06-30T18:00:09+02:00] Utente 6691 NON appartiene ai rivenditori. Ordine 31957 saltato.
+[2025-06-30T18:00:11+02:00] DEBUG Gruppi utente 37242: {"31":{"link_id":"28417","usergroup_id":"31","status":"A"}}
+[2025-06-30T18:00:11+02:00] Utente 37242 NON appartiene ai rivenditori. Ordine 31956 saltato.
+[2025-06-30T18:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T18:03:12+02:00] === FINE SCRIPT ===
+[2025-06-30T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T20:00:04+02:00] === INIZIO SCRIPT ===
+[2025-06-30T20:00:06+02:00] DEBUG Gruppi utente 6229: {"31":{"link_id":"11454","usergroup_id":"31","status":"A"}}
+[2025-06-30T20:00:06+02:00] Utente 6229 NON appartiene ai rivenditori. Ordine 31964 saltato.
+[2025-06-30T20:00:07+02:00] DEBUG Gruppi utente 6999: {"8":{"link_id":"2683","usergroup_id":"8","status":"A"}}
+[2025-06-30T20:00:07+02:00] Contatto aggiornato: amministrazioneinputsrl@gmail.com -> +393425387783
+[2025-06-30T20:00:08+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T20:03:06+02:00] === FINE SCRIPT ===
+[2025-06-30T22:00:02+02:00] === INIZIO SCRIPT ===
+[2025-06-30T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-06-30T22:00:04+02:00] DEBUG Gruppi utente 5564: {"31":{"link_id":"11323","usergroup_id":"31","status":"A"}}
+[2025-06-30T22:00:04+02:00] Utente 5564 NON appartiene ai rivenditori. Ordine 31966 saltato.
+[2025-06-30T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-06-30T22:03:08+02:00] === FINE SCRIPT ===
+[2025-07-01T18:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-01T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-01T18:00:09+02:00] DEBUG Gruppi utente 8455: {"8":{"link_id":"4004","usergroup_id":"8","status":"A"}}
+[2025-07-01T18:00:10+02:00] Errore Brevo per informazioni@tekkna.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-01T18:00:12+02:00] DEBUG Gruppi utente 34142: {"31":{"link_id":"17865","usergroup_id":"31","status":"A"}}
+[2025-07-01T18:00:12+02:00] Utente 34142 NON appartiene ai rivenditori. Ordine 31985 saltato.
+[2025-07-01T18:00:14+02:00] DEBUG Gruppi utente 4565: {"31":{"link_id":"11078","usergroup_id":"31","status":"A"}}
+[2025-07-01T18:00:14+02:00] Utente 4565 NON appartiene ai rivenditori. Ordine 31984 saltato.
+[2025-07-01T18:00:16+02:00] DEBUG Gruppi utente 37703: {"8":{"link_id":"28418","usergroup_id":"8","status":"A"}}
+[2025-07-01T18:00:16+02:00] Dati mancanti per ordine 31983: email=info@leadermek.it, cell=
+[2025-07-01T18:00:16+02:00] Ordine troppo vecchio, fermo.
+[2025-07-01T18:02:57+02:00] === FINE SCRIPT ===
+[2025-07-01T20:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-01T20:00:03+02:00] DEBUG Gruppi utente 35115: {"8":{"link_id":"21326","usergroup_id":"8","status":"A"}}
+[2025-07-01T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-01T20:00:04+02:00] Errore Brevo per vires@outlook.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-01T20:00:04+02:00] DEBUG Gruppi utente 35095: {"31":{"link_id":"27780","usergroup_id":"31","status":"A"}}
+[2025-07-01T20:00:04+02:00] Utente 35095 NON appartiene ai rivenditori. Ordine 31987 saltato.
+[2025-07-01T20:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-01T20:02:51+02:00] === FINE SCRIPT ===
+[2025-07-01T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-01T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-01T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-01T22:02:50+02:00] === FINE SCRIPT ===
+[2025-07-02T00:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T00:00:05+02:00] === INIZIO SCRIPT ===
+[2025-07-02T00:00:08+02:00] DEBUG Gruppi utente 35370: {"8":{"link_id":"23177","usergroup_id":"8","status":"A"}}
+[2025-07-02T00:00:08+02:00] Dati mancanti per ordine 31989: email=info@fvgshop.it, cell=
+[2025-07-02T00:00:08+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T00:03:36+02:00] === FINE SCRIPT ===
+[2025-07-02T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T02:02:49+02:00] === FINE SCRIPT ===
+[2025-07-02T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T04:00:02+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T04:02:48+02:00] === FINE SCRIPT ===
+[2025-07-02T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T06:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T06:02:50+02:00] === FINE SCRIPT ===
+[2025-07-02T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T08:00:07+02:00] DEBUG Gruppi utente 6614: {"8":{"link_id":"2329","usergroup_id":"8","status":"A"}}
+[2025-07-02T08:00:07+02:00] Numero non valido: 057328284 per info@carradori.it
+[2025-07-02T08:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T08:03:00+02:00] === FINE SCRIPT ===
+[2025-07-02T10:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T10:00:05+02:00] DEBUG Gruppi utente 6713: []
+[2025-07-02T10:00:05+02:00] Utente 6713 NON appartiene ai rivenditori. Ordine 31997 saltato.
+[2025-07-02T10:00:05+02:00] DEBUG Gruppi utente 11544: {"31":{"link_id":"10448","usergroup_id":"31","status":"A"}}
+[2025-07-02T10:00:05+02:00] Utente 11544 NON appartiene ai rivenditori. Ordine 31996 saltato.
+[2025-07-02T10:00:06+02:00] DEBUG Gruppi utente 4357: {"8":{"link_id":"532","usergroup_id":"8","status":"A"}}
+[2025-07-02T10:00:07+02:00] Contatto aggiornato: dmelettronica@alice.it -> +393884941743
+[2025-07-02T10:00:09+02:00] DEBUG Gruppi utente 4952: {"8":{"link_id":"698","usergroup_id":"8","status":"A"}}
+[2025-07-02T10:00:09+02:00] Numero non valido: 095938900 per assistenza@websrl.com
+[2025-07-02T10:00:11+02:00] DEBUG Gruppi utente 5537: {"31":{"link_id":"11092","usergroup_id":"31","status":"A"}}
+[2025-07-02T10:00:11+02:00] Utente 5537 NON appartiene ai rivenditori. Ordine 31993 saltato.
+[2025-07-02T10:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T10:02:55+02:00] === FINE SCRIPT ===
+[2025-07-02T12:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T12:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T12:00:05+02:00] DEBUG Gruppi utente 4818: {"38":{"link_id":"27674","usergroup_id":"38","status":"A"}}
+[2025-07-02T12:00:05+02:00] Utente 4818 NON appartiene ai rivenditori. Ordine 32004 saltato.
+[2025-07-02T12:00:06+02:00] DEBUG Gruppi utente 36248: {"8":{"link_id":"25534","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:06+02:00] Numero non valido: 3928492349 per ferramentacatallo@gmail.com
+[2025-07-02T12:00:08+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-07-02T12:00:08+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 32002 saltato.
+[2025-07-02T12:00:09+02:00] DEBUG Gruppi utente 33322: {"38":{"link_id":"27505","usergroup_id":"38","status":"A"}}
+[2025-07-02T12:00:09+02:00] Utente 33322 NON appartiene ai rivenditori. Ordine 32000 saltato.
+[2025-07-02T12:00:10+02:00] DEBUG Gruppi utente 7015: {"8":{"link_id":"2699","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:10+02:00] Contatto aggiornato: info@betagroup.it -> +393485482760
+[2025-07-02T12:00:11+02:00] DEBUG Gruppi utente 37077: {"8":{"link_id":"26667","usergroup_id":"8","status":"A"}}
+[2025-07-02T12:00:11+02:00] Dati mancanti per ordine 31998: email=turifazio56@gmail.com, cell=
+[2025-07-02T12:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T12:02:57+02:00] === FINE SCRIPT ===
+[2025-07-02T14:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T14:00:04+02:00] DEBUG Gruppi utente 7307: {"31":{"link_id":"10640","usergroup_id":"31","status":"A"}}
+[2025-07-02T14:00:04+02:00] Utente 7307 NON appartiene ai rivenditori. Ordine 32008 saltato.
+[2025-07-02T14:00:05+02:00] DEBUG Gruppi utente 5698: {"31":{"link_id":"10707","usergroup_id":"31","status":"A"}}
+[2025-07-02T14:00:05+02:00] Utente 5698 NON appartiene ai rivenditori. Ordine 32007 saltato.
+[2025-07-02T14:00:05+02:00] DEBUG Gruppi utente 35370: {"8":{"link_id":"23177","usergroup_id":"8","status":"A"}}
+[2025-07-02T14:00:05+02:00] Dati mancanti per ordine 32006: email=info@fvgshop.it, cell=
+[2025-07-02T14:00:06+02:00] DEBUG Gruppi utente 5839: {"8":{"link_id":"1578","usergroup_id":"8","status":"A"}}
+[2025-07-02T14:00:06+02:00] Numero non valido: 3926047724 per postaorazio@hotmail.it
+[2025-07-02T14:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T14:02:25+02:00] === FINE SCRIPT ===
+[2025-07-02T16:00:01+02:00] === INIZIO SCRIPT ===
+[2025-07-02T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T16:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T16:02:16+02:00] === FINE SCRIPT ===
+[2025-07-02T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-02T18:00:05+02:00] DEBUG Gruppi utente 37678: {"8":{"link_id":"28360","usergroup_id":"8","status":"A"}}
+[2025-07-02T18:00:05+02:00] Dati mancanti per ordine 32012: email=pcsystemct@gmail.com, cell=
+[2025-07-02T18:00:06+02:00] DEBUG Gruppi utente 5784: {"8":{"link_id":"1523","usergroup_id":"8","status":"A"}}
+[2025-07-02T18:00:08+02:00] Contatto aggiornato: dmimpiantisrl@gmail.com -> +393382020023
+[2025-07-02T18:00:09+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-07-02T18:00:09+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 32010 saltato.
+[2025-07-02T18:00:09+02:00] DEBUG Gruppi utente 33466: {"8":{"link_id":"28437","usergroup_id":"8","status":"A"}}
+[2025-07-02T18:00:10+02:00] Errore Brevo per ferramentagrg@virgilio.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-02T18:00:10+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T18:02:20+02:00] === FINE SCRIPT ===
+[2025-07-02T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T20:00:05+02:00] DEBUG Gruppi utente 11605: {"8":{"link_id":"7035","usergroup_id":"8","status":"A"}}
+[2025-07-02T20:00:05+02:00] Contatto aggiornato: gallello@virgilio.it -> +393392142132
+[2025-07-02T20:00:07+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T20:02:17+02:00] === FINE SCRIPT ===
+[2025-07-02T22:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-02T22:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-02T22:00:04+02:00] DEBUG Gruppi utente 11317: {"8":{"link_id":"6739","usergroup_id":"8","status":"A"}}
+[2025-07-02T22:00:05+02:00] Errore Brevo per info@heavensound.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-02T22:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-07-02T22:02:13+02:00] === FINE SCRIPT ===
+[2025-07-03T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T00:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T00:02:24+02:00] === FINE SCRIPT ===
+[2025-07-03T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T02:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T02:02:17+02:00] === FINE SCRIPT ===
+[2025-07-03T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-03T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T04:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T04:02:15+02:00] === FINE SCRIPT ===
+[2025-07-03T06:00:01+02:00] === INIZIO SCRIPT ===
+[2025-07-03T06:00:02+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T06:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T06:02:15+02:00] === FINE SCRIPT ===
+[2025-07-03T08:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T08:00:05+02:00] === INIZIO SCRIPT ===
+[2025-07-03T08:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T08:02:17+02:00] === FINE SCRIPT ===
+[2025-07-03T10:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T10:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T10:00:05+02:00] DEBUG Gruppi utente 12055: {"31":{"link_id":"10540","usergroup_id":"31","status":"A"}}
+[2025-07-03T10:00:05+02:00] Utente 12055 NON appartiene ai rivenditori. Ordine 32017 saltato.
+[2025-07-03T10:00:05+02:00] DEBUG Gruppi utente 4874: {"31":{"link_id":"10663","usergroup_id":"31","status":"A"}}
+[2025-07-03T10:00:05+02:00] Utente 4874 NON appartiene ai rivenditori. Ordine 32016 saltato.
+[2025-07-03T10:00:06+02:00] DEBUG Gruppi utente 4507: {"31":{"link_id":"11721","usergroup_id":"31","status":"A"}}
+[2025-07-03T10:00:06+02:00] Utente 4507 NON appartiene ai rivenditori. Ordine 32015 saltato.
+[2025-07-03T10:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T10:02:16+02:00] === FINE SCRIPT ===
+[2025-07-03T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T12:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T12:00:05+02:00] DEBUG Gruppi utente 8555: {"31":{"link_id":"10747","usergroup_id":"31","status":"A"}}
+[2025-07-03T12:00:05+02:00] Utente 8555 NON appartiene ai rivenditori. Ordine 32020 saltato.
+[2025-07-03T12:00:05+02:00] DEBUG Gruppi utente 33322: {"38":{"link_id":"27505","usergroup_id":"38","status":"A"}}
+[2025-07-03T12:00:05+02:00] Utente 33322 NON appartiene ai rivenditori. Ordine 32019 saltato.
+[2025-07-03T12:00:06+02:00] DEBUG Gruppi utente 33413: {"38":{"link_id":"27517","usergroup_id":"38","status":"A"}}
+[2025-07-03T12:00:06+02:00] Utente 33413 NON appartiene ai rivenditori. Ordine 32018 saltato.
+[2025-07-03T12:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T12:02:19+02:00] === FINE SCRIPT ===
+[2025-07-03T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T14:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T14:00:04+02:00] DEBUG Gruppi utente 5557: {"31":{"link_id":"10198","usergroup_id":"31","status":"A"}}
+[2025-07-03T14:00:04+02:00] Utente 5557 NON appartiene ai rivenditori. Ordine 32022 saltato.
+[2025-07-03T14:00:05+02:00] DEBUG Gruppi utente 4980: {"8":{"link_id":"726","usergroup_id":"8","status":"A"}}
+[2025-07-03T14:00:06+02:00] Errore Brevo per verdiroberto@adcomm.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-03T14:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T14:02:15+02:00] === FINE SCRIPT ===
+[2025-07-03T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T16:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T16:02:21+02:00] === FINE SCRIPT ===
+[2025-07-03T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T18:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-03T18:00:05+02:00] DEBUG Gruppi utente 37021: {"31":{"link_id":"27709","usergroup_id":"31","status":"A"}}
+[2025-07-03T18:00:05+02:00] Utente 37021 NON appartiene ai rivenditori. Ordine 32023 saltato.
+[2025-07-03T18:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T18:02:21+02:00] === FINE SCRIPT ===
+[2025-07-03T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T20:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-03T20:00:06+02:00] DEBUG Gruppi utente 9751: {"8":{"link_id":"5093","usergroup_id":"8","status":"A"}}
+[2025-07-03T20:00:06+02:00] Errore Brevo per info@videoniva.it: 400 - {"code":"invalid_parameter","message":"Invalid phone number"}
+[2025-07-03T20:00:07+02:00] DEBUG Gruppi utente 11821: {"38":{"link_id":"27503","usergroup_id":"38","status":"A"}}
+[2025-07-03T20:00:07+02:00] Utente 11821 NON appartiene ai rivenditori. Ordine 32025 saltato.
+[2025-07-03T20:00:08+02:00] DEBUG Gruppi utente 37704: {"8":{"link_id":"28421","usergroup_id":"8","status":"A"}}
+[2025-07-03T20:00:09+02:00] Contatto aggiornato: amministrazione@sintesisrl.net -> +390499301135
+[2025-07-03T20:00:09+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T20:02:21+02:00] === FINE SCRIPT ===
+[2025-07-03T22:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-03T22:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-03T22:00:03+02:00] DEBUG Gruppi utente 5029: {"8":{"link_id":"775","usergroup_id":"8","status":"A"}}
+[2025-07-03T22:00:04+02:00] Contatto aggiornato: tecno.audio@tiscali.it -> +393483188348
+[2025-07-03T22:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-03T22:02:21+02:00] === FINE SCRIPT ===
+[2025-07-04T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T00:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T00:00:04+02:00] DEBUG Gruppi utente 5168: {"8":{"link_id":"913","usergroup_id":"8","status":"A"}}
+[2025-07-04T00:00:05+02:00] Contatto aggiornato: dalbenroberto@libero.it -> +393383667505
+[2025-07-04T00:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T00:02:25+02:00] === FINE SCRIPT ===
+[2025-07-04T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T02:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T02:00:04+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T02:02:20+02:00] === FINE SCRIPT ===
+[2025-07-04T04:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-04T04:00:02+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T04:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T04:02:21+02:00] === FINE SCRIPT ===
+[2025-07-04T06:00:02+02:00] === INIZIO SCRIPT ===
+[2025-07-04T06:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T06:00:03+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T06:02:19+02:00] === FINE SCRIPT ===
+[2025-07-04T08:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T08:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T08:00:05+02:00] DEBUG Gruppi utente 35922: {"38":{"link_id":"27521","usergroup_id":"38","status":"A"}}
+[2025-07-04T08:00:05+02:00] Utente 35922 NON appartiene ai rivenditori. Ordine 32029 saltato.
+[2025-07-04T08:00:05+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T08:02:22+02:00] === FINE SCRIPT ===
+[2025-07-04T10:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-04T10:00:05+02:00] === INIZIO SCRIPT ===
+[2025-07-04T10:00:10+02:00] DEBUG Gruppi utente 4660: {"8":{"link_id":"229","usergroup_id":"8","status":"A"}}
+[2025-07-04T10:00:10+02:00] Dati mancanti per ordine 32030: email=informatica.store2010@gmail.com, cell=
+[2025-07-04T10:00:10+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T10:02:32+02:00] === FINE SCRIPT ===
+[2025-07-04T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-04T14:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-04T14:00:06+02:00] DEBUG Gruppi utente 37496: {"38":{"link_id":"28171","usergroup_id":"38","status":"A"}}
+[2025-07-04T14:00:06+02:00] Utente 37496 NON appartiene ai rivenditori. Ordine 32035 saltato.
+[2025-07-04T14:00:06+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T14:02:26+02:00] === FINE SCRIPT ===
+[2025-07-04T16:00:03+02:00] === INIZIO SCRIPT ===
+[2025-07-04T16:00:04+02:00] === INIZIO SCRIPT ===
+[2025-07-04T16:00:10+02:00] DEBUG Gruppi utente 35105: {"8":{"link_id":"21275","usergroup_id":"8","status":"A"}}
+[2025-07-04T16:00:11+02:00] Contatto aggiornato: tecnostore86@gmail.com -> +393392327296
+[2025-07-04T16:00:11+02:00] DEBUG Gruppi utente 4628: {"8":{"link_id":"261","usergroup_id":"8","status":"A"}}
+[2025-07-04T16:00:11+02:00] Numero non valido: 095509592 per i2celettronica@gmail.com
+[2025-07-04T16:00:11+02:00] Ordine troppo vecchio, fermo.
+[2025-07-04T16:03:00+02:00] === FINE SCRIPT ===
