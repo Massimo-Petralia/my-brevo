@@ -148,6 +148,9 @@ return function (array $formData) {
     if($message === 'Invalid phone number') {
         $message = 'Numero WhatsApp non valido';
     }
+    if($message === 'Unable to create contact, SMS is already associated with another Contact') {
+        $message = 'Impossibile creare il contatto, il numero WhatsApp è già associato a un altro contatto';
+    }
 
     return $blade->render('features.user.brevo-user',['code' => $code,'messaggio' => $message, 'siteName' => $siteName]);
 };
