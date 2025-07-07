@@ -8,7 +8,8 @@
     },
     "autoload": {
         "psr-4": {
-            "5secondi\\Brevo\\": "src/"
+            "brevo_php\\": "src/",
+            "brevo_php\\config\\": "config/"
         }
     },
     "authors": [

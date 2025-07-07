@@ -22,6 +22,11 @@ class ComposerStaticInitf4e967af2c964cd666f30a732e9ddda3
         array (
             'voku\\' => 5,
         ),
+        'b' => 
+        array (
+            'brevo_php\\config\\' => 17,
+            'brevo_php\\' => 10,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -61,16 +66,20 @@ class ComposerStaticInitf4e967af2c964cd666f30a732e9ddda3
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
-        5 => 
-        array (
-            '5secondi\\Brevo\\' => 15,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+        ),
+        'brevo_php\\config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
+        ),
+        'brevo_php\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -157,10 +166,6 @@ class ComposerStaticInitf4e967af2c964cd666f30a732e9ddda3
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
-        ),
-        '5secondi\\Brevo\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

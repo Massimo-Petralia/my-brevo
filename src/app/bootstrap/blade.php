@@ -1,5 +1,5 @@
 <?php
-
+namespace brevo_php\app\bootstrap;
 use Jenssegers\Blade\Blade;
 
 function blade() {

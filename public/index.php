@@ -13,10 +13,12 @@ if ($method === 'POST' ) {
         'telefono' => $_POST['telefono'] ?? '' ,
         'email' => $_POST['email'] ?? '',
         'listId' => intval($_POST['listId']),
-        'siteName' => $_POST['siteName']
+        'siteName' => $_POST['siteName'],
+        'lang' => $_POST['lang']
     ];
 
-echo (require '../src/app/features/user/brevo-user.php')($data);
+
+echo (require '../src/app/features/user/brevo-user-page.php')($data);
 
 } else {
     http_response_code(404);

@@ -18,7 +18,7 @@
       font-size: 16vw; /* adattivo */
       font-weight: bold;
       letter-spacing: -1px;
-      color: #32485f;
+      color: {{$siteName === 'web' ? '#32485f' : 'black'}};
       text-transform: lowercase;
       line-height: 1;
       margin-bottom: 20px;
@@ -60,19 +60,19 @@
   </style>
 </head>
 <body>
-  <div class="logo">
+  <div class="logo" >
     {{$siteName}}
   </div>
   <div class="box">
     <div class="success" style="color: {{ $code === 400 ? 'red' : 'green' }}">
       {{$messaggio}}
     </div>
-    @if ($messaggio === 'Numero WhatsApp non valido')
+    @if ($code === 'Numero WhatsApp non valido' )
     <div class="info">
-      Torna indietro e inserisci un numero WhatsApp valido
+      {{$info}}
     </div>
     @endif
-    <a href="javascript:history.back()" class="back-btn">Torna alla Home</a>
+    <a href="javascript:history.back()" class="back-btn">{{$buttonText}}</a>
   </div>
 </body>
 </html>

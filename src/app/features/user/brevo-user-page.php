@@ -1,12 +1,13 @@
-
 <?php
-require_once __DIR__ . '/../../bootstrap/blade.php';
+namespace brevo_php\app\features\user;
+use function brevo_php\app\bootstrap\blade;
+use brevo_php\app\Translations\UserTranslations;
 require __DIR__ . '../../../../../config/env.php';
 
 // CONFIG
 const LIST_ID = 21;
 const API_BASE_URL = 'https://api.brevo.com/v3';
-const BREVO_LOG_PATH = '../brevo/log/brevo_user_log.txt';
+const BREVO_LOG_PATH = '../brevo_php/log/brevo_user_log.txt';
 
 // NORMALIZZA TELEFONO
 function normalizzaTelefono($numero) {
@@ -56,6 +57,8 @@ function brevoRequest($method, $endpoint, $payload = null)
 // GET CONTACT
 function getContact($email)
 {
+               
+
     $response = brevoRequest('GET', '/contacts/'.urlencode($email));
     logBrevoResponse('GET', $email, $response);
     return $response;
@@ -64,6 +67,7 @@ function getContact($email)
 // CREATE CONTACT
 function createContact($data)
 {
+
     $payload = [
         'email' => $data['email'],
         'attributes' => [
@@ -77,6 +81,7 @@ function createContact($data)
     ];
 
     $response = brevoRequest('POST', '/contacts', $payload);
+
     logBrevoResponse('POST', $data['email'], $response);
     return $response;
 }
@@ -104,6 +109,7 @@ function updateContact($email, $data)
 // MAIN SYNC FUNCTION
 function syncContact($formData)
 {
+
     $check = getContact($formData['email']);
 
     if ($check['code'] === 404) {
@@ -132,27 +138,38 @@ function logBrevoResponse($type, $email, $response) {
 return function (array $formData) {
     $formData['telefono'] = normalizzaTelefono($formData['telefono']);
     $response = syncContact($formData);
+    $langKey = $formData['lang'] === 'eng' ? 'eng' : 'ita';
     $blade = blade();
-   // dump($response);
     $code = $response['code'];
     $message = $response['body']['message'];
+    $buttonText = 'Torna alla home';
+    $info = 'Torna indietro e inserisci un numero WhatsApp valido';
     $siteName = $formData['siteName'];
-
     if($code === 201) {
         $message = 'Registrazione avvenuta con successo !';
+        if($langKey === 'eng') {
+            $message = 'Registration successful!';
+        };
     }
     if($code === 204) {
         $message = 'Contatto aggiornato con successo !';
+        if($langKey === 'eng') {
+            $message = 'Contact updated successfully !';
+        }
+    }
+    $translations = UserTranslations::get();
+    if(isset($translations[$langKey][$message])) {
+        $message = $translations[$langKey][$message];
+    }
+    if($langKey === 'eng') {
+        $buttonText = 'Back to home';
+        $info = 'Go back and enter a valid WhatsApp number';
     }
 
-    if($message === 'Invalid phone number') {
-        $message = 'Numero WhatsApp non valido';
-    }
-    if($message === 'Unable to create contact, SMS is already associated with another Contact') {
-        $message = 'Impossibile creare il contatto, il numero WhatsApp è già associato a un altro contatto';
-    }
+   
 
-    return $blade->render('features.user.brevo-user',['code' => $code,'messaggio' => $message, 'siteName' => $siteName]);
+ return $blade->render('features.user.brevo-user-page',['code' => $code,'messaggio' => $message, 'siteName' => $siteName, "buttonText" => $buttonText, 'info' => $info]);
+
 };
 
 
