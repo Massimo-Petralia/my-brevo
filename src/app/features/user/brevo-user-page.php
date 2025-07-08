@@ -1,33 +1,10 @@
 <?php
 namespace brevo_php\app\features\user;
-use function brevo_php\app\bootstrap\blade;
-use brevo_php\app\Translations\UserTranslations;
 require __DIR__ . '../../../../../config/env.php';
+use brevo_php\app\helper\GenericHelper;
 
-// CONFIG
 const LIST_ID = 21;
 const API_BASE_URL = 'https://api.brevo.com/v3';
-const BREVO_LOG_PATH = '../brevo_php/log/brevo_user_log.txt';
-
-// NORMALIZZA TELEFONO
-function normalizzaTelefono($numero) {
-    // Rimuove spazi, trattini e altri simboli
-    $numero = preg_replace('/[^0-9+]/', '', $numero);
-
-    // Se inizia con "00", sostituisce con "+"
-    if (strpos($numero, '00') === 0) {
-        $numero = '+' . substr($numero, 2);
-    }
-
-    // Se inizia con "3" e ha 10 cifre, aggiunge +39
-    if (preg_match('/^3\d{9}$/', $numero)) {
-        $numero = '+39' . $numero;
-    }
-
-   
-
-    return $numero;
-}
 
 // CURL WRAPPER
 function brevoRequest($method, $endpoint, $payload = null)
@@ -57,17 +34,14 @@ function brevoRequest($method, $endpoint, $payload = null)
 // GET CONTACT
 function getContact($email)
 {
-               
-
     $response = brevoRequest('GET', '/contacts/'.urlencode($email));
-    logBrevoResponse('GET', $email, $response);
+    GenericHelper::logBrevoResponse('GET', $email, $response);
     return $response;
 }
 
 // CREATE CONTACT
 function createContact($data)
 {
-
     $payload = [
         'email' => $data['email'],
         'attributes' => [
@@ -82,7 +56,7 @@ function createContact($data)
 
     $response = brevoRequest('POST', '/contacts', $payload);
 
-    logBrevoResponse('POST', $data['email'], $response);
+    GenericHelper::logBrevoResponse('POST', $data['email'], $response);
     return $response;
 }
 
@@ -100,11 +74,9 @@ function updateContact($email, $data)
     ];
 
     $response = brevoRequest('PUT', '/contacts/'.urlencode($email), $payload);
-    logBrevoResponse('PUT', $email, $response);
+    GenericHelper::logBrevoResponse('PUT', $email, $response);
     return $response;
 }
-
-
 
 // MAIN SYNC FUNCTION
 function syncContact($formData)
@@ -121,56 +93,9 @@ function syncContact($formData)
     }
 }
 
-// Funzione di log
-function logBrevoResponse($type, $email, $response) {
-    $log = sprintf(
-        "[%s] %s | Email: %s | Codice: %s | Risposta: %s\n",
-        date('Y-m-d H:i:s'),
-        strtoupper($type),
-        $email,
-        $response['code'],
-        json_encode($response['body'])
-    );
-    file_put_contents(BREVO_LOG_PATH, $log, FILE_APPEND);
-}
 
-// === LOGICA DI ESECUZIONE DEL FORM (CONTROLLER) ===
-return function (array $formData) {
-    $formData['telefono'] = normalizzaTelefono($formData['telefono']);
-    $response = syncContact($formData);
-    $langKey = $formData['lang'] === 'eng' ? 'eng' : 'ita';
-    $blade = blade();
-    $code = $response['code'];
-    $message = $response['body']['message'];
-    $buttonText = 'Torna alla home';
-    $info = 'Torna indietro e inserisci un numero WhatsApp valido';
-    $siteName = $formData['siteName'];
-    if($code === 201) {
-        $message = 'Registrazione avvenuta con successo !';
-        if($langKey === 'eng') {
-            $message = 'Registration successful!';
-        };
-    }
-    if($code === 204) {
-        $message = 'Contatto aggiornato con successo !';
-        if($langKey === 'eng') {
-            $message = 'Contact updated successfully !';
-        }
-    }
-    $translations = UserTranslations::get();
-    if(isset($translations[$langKey][$message])) {
-        $message = $translations[$langKey][$message];
-    }
-    if($langKey === 'eng') {
-        $buttonText = 'Back to home';
-        $info = 'Go back and enter a valid WhatsApp number';
-    }
 
-   
 
- return $blade->render('features.user.brevo-user-page',['code' => $code,'messaggio' => $message, 'siteName' => $siteName, "buttonText" => $buttonText, 'info' => $info]);
-
-};
 
 
 
