@@ -1,6 +1,6 @@
 <?php
-
 require '../vendor/autoload.php';
+use brevo_php\app\features\user\BrevoUserComponent;
 $blade = require '../src/app/bootstrap/blade.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
@@ -17,8 +17,7 @@ if ($method === 'POST' ) {
         'lang' => $_POST['lang']
     ];
 
-
-echo (require '../src/app/features/user/brevo-user-page.php')($data);
+echo BrevoUserComponent::handle($data);
 
 } else {
     http_response_code(404);
