@@ -3,7 +3,6 @@ namespace brevo_php\app\features\user;
 require __DIR__ . '../../../../../config/env.php';
 use brevo_php\app\helper\GenericHelper;
 
-const LIST_ID = 21;
 const API_BASE_URL = 'https://api.brevo.com/v3';
 
 // CURL WRAPPER
