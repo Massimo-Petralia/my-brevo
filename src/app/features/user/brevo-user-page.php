@@ -92,12 +92,3 @@ function syncContact($formData)
         return ['error' => 'Errore nella verifica contatto', 'dettagli' => $check];
     }
 }
-
-
-
-
-
-
-
-
-
