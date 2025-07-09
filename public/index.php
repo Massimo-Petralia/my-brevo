@@ -8,9 +8,10 @@ $uri = $_SERVER['REQUEST_URI'];
 
 if(!empty($_POST['fakeUrl'])){
     $fakeData = $_POST['fakeUrl'];
-    $log = 'Accesso negato : Possibile bot rilevato : ';
-    file_put_contents( __DIR__.'/../log/brevo_user_log.txt', $log . $fakeData, FILE_APPEND);
-    exit($log);
+    $log = 'Possible bot detected! :' . $fakeData . PHP_EOL;
+    file_put_contents( __DIR__.'/../log/brevo_user_log.txt', $log, FILE_APPEND);
+    http_response_code(403);
+    exit('Access denied');
 }
 
 if ($method === 'POST' ) {
