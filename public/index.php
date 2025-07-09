@@ -6,6 +6,13 @@ $blade = require '../src/app/bootstrap/blade.php';
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
 
+if(!empty($_POST['fakeUrl'])){
+    $fakeData = $_POST['fakeUrl'];
+    $log = 'Accesso negato : Possibile bot rilevato : ';
+    file_put_contents( __DIR__.'/../log/brevo_user_log.txt', $log . $fakeData, FILE_APPEND);
+    exit($log);
+}
+
 if ($method === 'POST' ) {
     $data = [
         'nome' => $_POST['nome'] ?? '',
