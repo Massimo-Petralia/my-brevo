@@ -1,39 +1,12 @@
 <?php
 namespace brevo_php\app\features\user;
-require __DIR__ . '../../../../../config/env.php';
+use brevo_php\app\services\BrevoService;
 use brevo_php\app\helper\GenericHelper;
-
-const API_BASE_URL = 'https://api.brevo.com/v3';
-
-// CURL WRAPPER
-function brevoRequest($method, $endpoint, $payload = null)
-{
-    $ch = curl_init(API_BASE_URL.$endpoint);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_CUSTOMREQUEST => $method,
-        CURLOPT_HTTPHEADER => [
-            'Accept: application/json',
-            'Content-Type: application/json',
-            'api-key: '. $_ENV['BREVO_API_KEY'],
-        ],
-    ]);
-
-    if ($payload) {
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
-    }
-
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-
-    return ['code' => $httpCode, 'body' => json_decode($response, true)];
-}
 
 // GET CONTACT
 function getContact($email)
 {
-    $response = brevoRequest('GET', '/contacts/'.urlencode($email));
+    $response = BrevoService::brevoRequest('GET', '/contacts/'.urlencode($email));
     GenericHelper::logBrevoResponse('GET', $email, $response);
     return $response;
 }
@@ -53,7 +26,7 @@ function createContact($data)
         'updateEnabled' => false,
     ];
 
-    $response = brevoRequest('POST', '/contacts', $payload);
+    $response = BrevoService::brevoRequest('POST', '/contacts', $payload);
 
     GenericHelper::logBrevoResponse('POST', $data['email'], $response);
     return $response;
@@ -72,7 +45,7 @@ function updateContact($email, $data)
         'listIds' => [$data['listId']],
     ];
 
-    $response = brevoRequest('PUT', '/contacts/'.urlencode($email), $payload);
+    $response = BrevoService::brevoRequest('PUT', '/contacts/'.urlencode($email), $payload);
     GenericHelper::logBrevoResponse('PUT', $email, $response);
     return $response;
 }
