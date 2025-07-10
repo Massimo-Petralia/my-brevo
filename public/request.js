@@ -1,4 +1,15 @@
-document.addEventListener('DOMContentLoaded', function (e) {
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var title = document.getElementById('title');
+  var button = document.getElementById('myButton');
+  button.addEventListener('click',  () => {
+  title.innerText = 'Hello World !'
+})
+})
+
+
+/* document.addEventListener('DOMContentLoaded', function (e) {
 e.preventDefault();
   var form = document.getElementById('brevoForm');
   var output = document.getElementById('risposta');
@@ -16,4 +27,4 @@ e.preventDefault();
       }, 500);
     });
   }
-});
+}); */
