@@ -1,30 +1,34 @@
 
-
 document.addEventListener('DOMContentLoaded', function () {
-  var title = document.getElementById('title');
-  var button = document.getElementById('myButton');
-  button.addEventListener('click',  () => {
-  title.innerText = 'Hello World !'
-})
-})
+  const form = document.getElementById('brevoForm');
+  const output = document.getElementById('risultato');
 
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); // blocca il comportamento normale
+   
+    const recaptchaResponse = grecaptcha.getResponse();
+    
+     if (!recaptchaResponse) {
+      output.innerHTML = '<p style="color: red;">Clica Non sono un robot prima di inviare</p>'
+      return;
+   }
+    
+    const formData = new FormData(form);
+    formData.append('g-recaptcha-response', recaptchaResponse);
 
-/* document.addEventListener('DOMContentLoaded', function (e) {
-e.preventDefault();
-  var form = document.getElementById('brevoForm');
-  var output = document.getElementById('risposta');
-
-  if (form && output) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var data = new FormData(form);
-      var result = {};
-      for (var pair of data.entries()) {
-        result[pair[0]] = pair[1];
-      }
-      setTimeout(function () {
-        output.textContent = 'Iscrizione completata per ' + result.nome + ' ' + result.cognome + '. Email: ' + result.email + ' - Tel: ' + result.telefono;
-      }, 500);
-    });
-  }
-}); */
+    fetch('https://www.websrl.com/brevo_php/public/index.php', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => {
+      if (!response.ok) throw new Error('Errore nella risposta');
+      return response.text();
+    })
+    .then(html => {
+      output.innerHTML = html;
+    })
+    .catch(err => {
+      output.innerHTML = '<p>Errore durante l’invio</p>';
+      });
+  });
+});
