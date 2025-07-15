@@ -1,18 +1,46 @@
-<!--CS-CART-->
-<div style="border: 1px solid lightgray; margin: 5px; padding: 5px;"><form style="display: flex; flex-direction: column; gap: 10px; vertical-align: middle;" action="https://www.websrl.com/brevo_php/public/index.php" method="post">
-<div style="display: flex; flex-direction: row; justify-content: space-between;">
-<div style="text-align: center; font-size: 24px; font-weight: bold;">Resta aggiornato</div>
-<button style="margin: 5px 20px 5px 5px; padding: 4px 32px 4px 32px; border: none; border-radius: 8px; background: #105990; color: white; font-size: 20px;" type="submit;">Invia</button></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://www.websrl.com/brevo_php/css/global-style.css"  >
+    <script src="https://www.websrl.com/brevo_php/public/request.js" defer ></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div style="border: 1px solid lightgray; margin: 5px; padding: 5px;">
+<form id="brevoForm" style="display: flex; flex-direction: column; gap: 10px; vertical-align: middle;">
+    <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+        <div style="text-align: center; font-size: 24px; font-weight: bold;">Resta aggiornato</div>
+        <div class="g-recaptcha" data-sitekey="6LfOroArAAAAADu2xKSp0icPPaAwPgChQ9--Yv-f" data-action="LOGIN"></div>
+        <button style="margin: 5px 20px 5px 5px; padding: 4px 32px 4px 32px; border: none; border-radius: 8px; background: #105990; color: white; font-size: 20px;" type="submit;">Invia</button>
+    </div>
 <div style="display: flex; gap: 10px;">
-<div style="flex: 1;"><input id="nome" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="nome" required="" type="text" placeholder="Nome" /></div>
-<div style="flex: 1;"><input id="cognome" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="cognome" required="" type="text" placeholder="Cognome" /></div>
+<div style="flex: 1;">
+ <input id="nome" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="nome" required="" type="text" placeholder="Nome" />
+</div>
+<div style="flex: 1;">
+ <input id="cognome" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="cognome" required="" type="text" placeholder="Cognome" />
+</div>
 </div>
 <div style="display: flex; gap: 10px;">
-<div style="flex: 1;"><input id="telefono" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="telefono" pattern="[0-9]{10,15}" required="true" type="tel" placeholder="Whatsapp" /></div>
-<div style="flex: 1;"><input id="email" style="width: 100%; min-height: 40px; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="email" required="" type="email" placeholder="E-mail" /></div>
+<div style="flex: 1;">
+ <input id="telefono" style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="telefono" pattern="[0-9]{10,15}" required="true" type="tel" placeholder="Whatsapp" />
 </div>
-<input id="listId" name="listId" type="hidden" value="21" />
-<input id="siteName" name="siteName" type="hidden" value="web" />
-<input id="lang" name="lang" type="hidden" value="ita" />
-<input type="text" name="fakeUrl" style="display: none;" />
-</form></div>
+<div style="flex: 1;">
+ <input id="email" style="width: 100%; min-height: 40px; border: 1px solid #ccc; border-radius: 4px; padding: 6px 10px; font-size: 14px; outline: none;" name="email" required="" type="email" placeholder="E-mail" />
+</div>
+</div>
+ <input id="listId" name="listId" type="hidden" value="21" />
+ <input id="siteName" name="siteName" type="hidden" value="web" /> 
+ <input id="lang" name="lang" type="hidden" value="ita" />
+</form>
+<div id="risultato"></div>
+<div id="log"></div>
+</div>
+</body>
+</html>
+
+
+
+
