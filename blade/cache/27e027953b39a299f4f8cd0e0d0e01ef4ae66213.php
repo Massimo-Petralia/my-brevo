@@ -13,16 +13,7 @@
       background-color: #f9f9f9;
       margin: 0;
     }
-    .logo {
-      font-family: Impact, Haettenschweiler, 'Arial Black', sans-serif;
-      font-size: 16vw; /* adattivo */
-      font-weight: bold;
-      letter-spacing: -1px;
-      color: <?php echo e($siteName === 'web' ? '#32485f' : 'black'); ?>;
-      text-transform: lowercase;
-      line-height: 1;
-      margin-bottom: 20px;
-    }
+
     .box {
       display: inline-block;
       background: #fff;
@@ -41,22 +32,11 @@
       font-size: 3.5vw;
       margin-top: 15px;
     }
-    .back-btn {
-      margin-top: 20px;
-      display: inline-block;
-      padding: 10px 20px;
-      background: #105990;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 4vw;
-    }
+
 
     @media(min-width: 600px) {
-      .logo { font-size: 96px; }
       .success { font-size: 14px; }
       .info { font-size: 16px; }
-      .back-btn { font-size: 16px; }
     }
 
 
@@ -75,7 +55,6 @@
 
     </div>
     <?php endif; ?>
-    
   </div>
 </body>
 </html>

@@ -1,8 +1,4 @@
 <?php
-// Gestione origini start
-/* header("Access-Control-Allow-Origin: https://www.electronic.it");
-header("Access-Control-Allow-Origin: https://22b2.com");
-header("Access-Control-Allow-Origin: http://localhost:8000"); */
 $allowed_origins = [
     'http://127.0.0.1:5500',
     'http://localhost:8080',
@@ -27,7 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit;
 }
-// Gestione origini end
 
 require '../vendor/autoload.php';
 require __DIR__ . '/../config/env.php';
@@ -62,7 +57,6 @@ if ($method === 'POST' ) {
 
     if (empty($response['success']) || !$response['success']) {
          http_response_code(403);
-         //echo '<p style="color: red;">Clica Non sono un robot prima di inviare</p>';
          exit;
      }
 
