@@ -1,13 +1,15 @@
 <?php
 // Gestione origini start
-header("Access-Control-Allow-Origin: https://www.electronic.it");
+/* header("Access-Control-Allow-Origin: https://www.electronic.it");
 header("Access-Control-Allow-Origin: https://22b2.com");
+header("Access-Control-Allow-Origin: http://localhost:8000"); */
 $allowed_origins = [
     'http://127.0.0.1:5500',
     'http://localhost:8080',
-    'https://www.websrl.com/',
-    'https://www.electronic.it/',
-    'https://22b2.com/'
+    'https://www.websrl.com',
+    'https://www.electronic.it',
+    'https://22b2.com',
+    'https://22b2.com/en'
 
 ];
 

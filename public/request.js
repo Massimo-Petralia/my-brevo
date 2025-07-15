@@ -10,7 +10,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const recaptchaResponse = grecaptcha.getResponse();
     
       if (!recaptchaResponse) {
-       output.innerHTML = '<p style="color: red;">Clica Non sono un robot prima di inviare</p>'
+        const langValue  = lang.value 
+        if(langValue === 'ita') {
+          output.innerHTML = '<p style="color: red;">Clica Non sono un robot prima di inviare</p>'
+        }
+        if(langValue === 'eng') {
+          output.innerHTML = '<p style="color: red;">Click I\'m not a robot before submitting.</p>'
+
+        }
        return;
    }
     
@@ -32,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .catch(err => {
       output.innerHTML = '<p style="color: red;">Clica Non sono un robot prima di inviare</p>';
-      console.error(err);
+      console.error('error log: ' + err);
       });
   });
 });
