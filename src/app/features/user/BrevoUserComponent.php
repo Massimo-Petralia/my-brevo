@@ -13,13 +13,11 @@ class BrevoUserComponent {
     $response = syncContact($formData);
 
     $langKey = $formData['lang'] === 'eng' ? 'eng' : 'ita';
-    //$siteName = $formData['siteName'];
+    
     $blade = blade();
 
     $code = $response['code'];
     $message = $response['body']['message'];
-    //$buttonText = 'Torna alla home';
-    $info = 'Torna indietro e inserisci un numero WhatsApp valido';
 
     if ($code === 201) {
         $message = 'Registrazione avvenuta con successo !';
@@ -36,21 +34,14 @@ class BrevoUserComponent {
     }
 
     $translations = UserTranslations::get();
+
     if (isset($translations[$langKey][$message])) {
         $message = $translations[$langKey][$message];
     }
 
-    if ($langKey === 'eng') {
-        //$buttonText = 'Back to home';
-        $info = 'Go back and enter a valid WhatsApp number';
-    }
-
-    return $blade->render('features.user.brevo-user-component', [
+   return $blade->render('features.user.brevo-user-component', [
         'code' => $code,
         'messaggio' => $message,
-        //'siteName' => $siteName,
-        //'buttonText' => $buttonText,
-        'info' => $info
     ]);
 }
 

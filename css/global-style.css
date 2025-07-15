@@ -1,5 +1,5 @@
 
-    .mio-form-brevo {
+.mio-form-brevo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,6 +14,27 @@
   color: white; font-size: 20px;
 }
 
+.box {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      max-width: 90vw;
+      margin-top: 10px
+    }
+
+  .success {
+      color: green;
+      font-weight: bold;
+    }
+   
+
+@media(min-width: 600px) {
+      .success { font-size: 24px; }
+      .info { font-size: 16px; }
+    }
+
 @media (max-width: 600px) {
   .mio-form-brevo {
     display: flex;
@@ -26,5 +47,8 @@
   background: #105990; 
   color: white; font-size: 20px;
   width: 100%;
+  }
+  .success {
+    font-size: 14px;
   }
 }
