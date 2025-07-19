@@ -9,6 +9,12 @@ $allowed_origins = [
 
 ];
 
+$recaptchaSecrets = [
+    'web' => $_ENV['RECAPTCHA-SECRET-WEB'],
+    '22b2' => $_ENV['RECAPTCHA-SECRET-22B2'],
+    'local' => $_ENV['RECAPTCHA-SECRET-LOCALHOST']
+];
+
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 
 if(in_array($origin, $allowed_origins)) {
@@ -29,14 +35,24 @@ require __DIR__ . '/../config/env.php';
 use brevo_php\app\features\user\BrevoUserComponent;
 $blade = require '../src/app/bootstrap/blade.php';
 
+function setSecret ($origin, $recaptchaSecrets) {
+    if(in_array($origin, ['https://22b2.com', 'https://22b2.com/en'],true)) {
+        return $recaptchaSecrets['22b2'];
+    }
+    if($origin === 'http://localhost:8080') {
+        return $recaptchaSecrets['local'];
+    }
+    return $recaptchaSecrets['web'];
+}
+
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
 
 if ($method === 'POST' ) {
     $origin = $_SERVER['HTTP_ORIGIN'];
      $recaptcha_token = $_POST['g-recaptcha-response'] ?? '';
-     $recaptcha_secret_web = $_ENV['RECAPTCHA-SECRET-WEB'];
-     $recaptcha_secret_22b2 = $_ENV['RECAPTCHA-SECRET-22B2'];
+    //  $recaptcha_secret_web = $_ENV['RECAPTCHA-SECRET-WEB'];
+    //  $recaptcha_secret_22b2 = $_ENV['RECAPTCHA-SECRET-22B2'];
 
 
  function verify($token, $secret) {
@@ -53,7 +69,7 @@ if ($method === 'POST' ) {
          curl_close($ch);
          return json_decode($res, true);
  };
-     $response = verify($recaptcha_token, $recaptcha_secret = $origin === 'https://22b2.com' ? $recaptcha_secret_22b2 : $recaptcha_secret_web);
+     $response = verify($recaptcha_token, $recaptcha_secret = setSecret($origin, $recaptchaSecrets));
 
     if (empty($response['success']) || !$response['success']) {
          http_response_code(403);
