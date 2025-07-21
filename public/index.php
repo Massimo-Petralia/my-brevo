@@ -9,8 +9,6 @@ $allowed_origins = [
 
 ];
 
-
-
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 
 if(in_array($origin, $allowed_origins)) {
@@ -27,31 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 require '../vendor/autoload.php';
-require __DIR__ . '/../config/env.php';
 use brevo_php\app\features\user\BrevoUserComponent;
+use brevo_php\app\helper\SecurityHelper;
+use brevo_php\app\services\GoogleService;
 $blade = require '../src/app/bootstrap/blade.php';
-
-$recaptchaSecrets = [
-    'web' => $_ENV['RECAPTCHA-SECRET-WEB'],
-    '22b2' => $_ENV['RECAPTCHA-SECRET-22B2'],
-    'local' => $_ENV['RECAPTCHA-SECRET-LOCALHOST']
-];
-
-function setSecret ($origin, $recaptchaSecrets) {
-  
-    if(in_array($origin, 
-    [
-        'https://22b2.com',
-        'https://22b2.com/en'
-    ]
-    ,true)) {
-        return $recaptchaSecrets['22b2'];
-    }
-    if($origin === 'http://localhost:8000') {
-        return $recaptchaSecrets['local'];
-    }
-    return $recaptchaSecrets['web'];
-}
 
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
@@ -59,22 +36,10 @@ $uri = $_SERVER['REQUEST_URI'];
 if ($method === 'POST' ) {
     $origin = $_SERVER['HTTP_ORIGIN'];
      $recaptcha_token = $_POST['g-recaptcha-response'] ?? '';
- 
-function verify($token, $secret) {
-     $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
-     curl_setopt_array($ch, [
-         CURLOPT_RETURNTRANSFER => true,
-         CURLOPT_POST => true,
-         CURLOPT_POSTFIELDS => http_build_query([
-            'secret' =>  $secret,
-            'response' => $token
-         ])
-         ]);
-         $res = curl_exec($ch);
-         curl_close($ch);
-         return json_decode($res, true);
- };
-     $response = verify($recaptcha_token, $recaptcha_secret = setSecret($origin, $recaptchaSecrets));
+
+
+     $securityHelper = new SecurityHelper();
+     $response = GoogleService::verify($recaptcha_token, $recaptcha_secret = $securityHelper->setSecret($origin));
 
     if (empty($response['success']) || !$response['success']) {
          http_response_code(403);
