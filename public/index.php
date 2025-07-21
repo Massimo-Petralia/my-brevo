@@ -37,7 +37,6 @@ if ($method === 'POST' ) {
     $origin = $_SERVER['HTTP_ORIGIN'];
      $recaptcha_token = $_POST['g-recaptcha-response'] ?? '';
 
-
      $securityHelper = new SecurityHelper();
      $response = GoogleService::verify($recaptcha_token, $recaptcha_secret = $securityHelper->setSecret($origin));
 
