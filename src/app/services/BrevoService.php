@@ -1,12 +1,12 @@
 <?php
 namespace brevo_php\app\services;
 require __DIR__ . '../../../../config/env.php';
-const API_BASE_URL = 'https://api.brevo.com/v3';
+const BREVO_API_BASE_URL = 'https://api.brevo.com/v3';
 class BrevoService {
 
    public static function brevoRequest($method, $endpoint, $payload = null)
 {
-    $ch = curl_init(API_BASE_URL.$endpoint);
+    $ch = curl_init(BREVO_API_BASE_URL.$endpoint);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CUSTOMREQUEST => $method,

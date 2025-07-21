@@ -17,7 +17,7 @@ class BrevoUserComponent {
     $blade = blade();
 
     $code = $response['code'];
-    $message = $response['body']['message'];
+    $message = $response['body']['message'] ?? '';
 
     if ($code === 201) {
         $message = 'Registrazione avvenuta con successo !';
